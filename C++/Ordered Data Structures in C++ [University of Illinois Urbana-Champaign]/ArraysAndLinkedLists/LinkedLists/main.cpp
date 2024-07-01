@@ -33,7 +33,7 @@ int main()
     std::cout << "First item: " << list[0] << std::endl;
 
     list.insertAtFront(item_b);
-    std::cout << "First item: " << list[1] << " - Second item: " << list[0] << std::endl;
+    std::cout << "First item: " << list[0] << " - Second item: " << list[1] << std::endl;
 
     return 0;
 }
